@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "d059ae4a-dbf7-4c91-8eeb-478298099275",
+		"name": "EmployeeTrackingSystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/api/employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"emp_id\": \"1\",\r\n    \"emp_name\": \"Lois\",\r\n    \"email\": \"lois.walker@hotmail.com\",\r\n    \"age\": \"36\",\r\n    \"city\": \"Denver\",\r\n    \"project\": \"Batman\",\r\n    \"manager\": \"Wayne\",\r\n    \"role\": \"Engineer\"\r\n  },\r\n  {\r\n    \"emp_id\": \"2\",\r\n    \"emp_name\": \"Brenda\",\r\n    \"email\": \"brenda.robinson@gmail.com\",\r\n    \"age\": \"47\",\r\n    \"city\": \"Stonewall\",\r\n    \"project\": \"Bender\",\r\n    \"manager\": \"Cheryl\",\r\n    \"role\": \"Engineer\"\r\n  },\r\n  {\r\n    \"emp_id\": \"3\",\r\n    \"emp_name\": \"Joe\",\r\n    \"email\": \"joe.robinson@gmail.com\",\r\n    \"age\": \"54\",\r\n    \"city\": \"Michigantown\",\r\n    \"project\": \"Canary\",\r\n    \"manager\": \"Paula\",\r\n    \"role\": \"Engineer\"\r\n  },\r\n  {\r\n    \"emp_id\": \"4\",\r\n    \"emp_name\": \"Diane\",\r\n    \"email\": \"diane.evans@yahoo.com\",\r\n    \"age\": \"39\",\r\n    \"city\": \"Hydetown\",\r\n    \"project\": \"Casanova\",\r\n    \"manager\": \"Joshua\",\r\n    \"role\": \"Engineer\"\r\n  },\r\n  {\r\n    \"emp_id\": \"5\",\r\n    \"emp_name\": \"Benjamin\",\r\n    \"email\": \"benjamin.russell@charter.net\",\r\n    \"age\": \"40\",\r\n    \"city\": \"Fremont\",\r\n    \"project\": \"Cascade\",\r\n    \"manager\": \"Theresa\",\r\n    \"role\": \"Engineer\"\r\n  },\r\n  {\r\n    \"emp_id\": \"6\",\r\n    \"emp_name\": \"Patrick\",\r\n    \"email\": \"patrick.bailey@aol.com\",\r\n    \"age\": \"34\",\r\n    \"city\": \"Macksburg\",\r\n    \"project\": \"Bigfish\",\r\n    \"manager\": \"Julia\",\r\n    \"role\": \"Engineer\"\r\n  },\r\n  {\r\n    \"emp_id\": \"7\",\r\n    \"emp_name\": \"Nancy\",\r\n    \"email\": \"nancy.baker@bp.com\",\r\n    \"age\": \"22\",\r\n    \"city\": \"Atlanta\",\r\n    \"project\": \"Bigfoot.\",\r\n    \"manager\": \"Thomas\",\r\n    \"role\": \"Engineer\"\r\n  },\r\n  {\r\n    \"emp_id\": \"8\",\r\n    \"emp_name\": \"Carol\",\r\n    \"email\": \"carol.murphy@gmail.com\",\r\n    \"age\": \"59\",\r\n    \"city\": \"Blanchester\",\r\n    \"project\": \"Horned Frogs\",\r\n    \"manager\": \"Wayne\",\r\n    \"role\": \"Architect\"\r\n  },\r\n  {\r\n    \"emp_id\": \"9\",\r\n    \"emp_name\": \"Frances\",\r\n    \"email\": \"frances.young@gmail.com\",\r\n    \"age\": \"58\",\r\n    \"city\": \"Delmita\",\r\n    \"project\": \"Batman\",\r\n    \"manager\": \"Cheryl\",\r\n    \"role\": \"Architect\"\r\n  },\r\n  {\r\n    \"emp_id\": \"10\",\r\n    \"emp_name\": \"Diana\",\r\n    \"email\": \"diana.peterson@hotmail.co.uk\",\r\n    \"age\": \"29\",\r\n    \"city\": \"Eureka Springs\",\r\n    \"project\": \"Bender\",\r\n    \"manager\": \"Paula\",\r\n    \"role\": \"Architect\"\r\n  },\r\n  {\r\n    \"emp_id\": \"11\",\r\n    \"emp_name\": \"Ralph\",\r\n    \"email\": \"ralph.flores@yahoo.com\",\r\n    \"age\": \"42\",\r\n    \"city\": \"Sabetha\",\r\n    \"project\": \"Canary\",\r\n    \"manager\": \"Joshua\",\r\n    \"role\": \"Architect\"\r\n  },\r\n  {\r\n    \"emp_id\": \"12\",\r\n    \"emp_name\": \"Jack\",\r\n    \"email\": \"jack.alexander@gmail.com\",\r\n    \"age\": \"22\",\r\n    \"city\": \"Las Vegas\",\r\n    \"project\": \"Casanova\",\r\n    \"manager\": \"Theresa\",\r\n    \"role\": \"Architect\"\r\n  },\r\n  {\r\n    \"emp_id\": \"13\",\r\n    \"emp_name\": \"Melissa\",\r\n    \"email\": \"melissa.king@comcast.net\",\r\n    \"age\": \"45\",\r\n    \"city\": \"New Matamoras\",\r\n    \"project\": \"Cascade\",\r\n    \"manager\": \"Julia\",\r\n    \"role\": \"Architect\"\r\n  },\r\n  {\r\n    \"emp_id\": \"14\",\r\n    \"emp_name\": \"Wayne\",\r\n    \"email\": \"wayne.watson@gmail.com\",\r\n    \"age\": \"21\",\r\n    \"city\": \"Maida\",\r\n    \"project\": \"Bigfish\",\r\n    \"manager\": \"Thomas\",\r\n    \"role\": \"Manager\"\r\n  },\r\n  {\r\n    \"emp_id\": \"15\",\r\n    \"emp_name\": \"Cheryl\",\r\n    \"email\": \"cheryl.scott@gmail.com\",\r\n    \"age\": \"59\",\r\n    \"city\": \"Quecreek\",\r\n    \"project\": \"Bigfoot\",\r\n    \"manager\": \"Wayne\",\r\n    \"role\": \"Manager\"\r\n  },\r\n  {\r\n    \"emp_id\": \"16\",\r\n    \"emp_name\": \"Paula\",\r\n    \"email\": \"paula.diaz@gmail.com\",\r\n    \"age\": \"50\",\r\n    \"city\": \"Beulaville\",\r\n    \"project\": \"Horned Frogs\",\r\n    \"manager\": \"Cheryl\",\r\n    \"role\": \"Manager\"\r\n  },\r\n  {\r\n    \"emp_id\": \"17\",\r\n    \"emp_name\": \"Joshua\",\r\n    \"email\": \"joshua.stewart@yahoo.ca\",\r\n    \"age\": \"47\",\r\n    \"city\": \"New Douglas\",\r\n    \"project\": \"Batman\",\r\n    \"manager\": \"Paula\",\r\n    \"role\": \"Manager\"\r\n  },\r\n  {\r\n    \"emp_id\": \"18\",\r\n    \"emp_name\": \"Theresa\",\r\n    \"email\": \"theresa.lee@gmail.com\",\r\n    \"age\": \"24\",\r\n    \"city\": \"Toeterville\",\r\n    \"project\": \"Bender Project\",\r\n    \"manager\": \"Joshua\",\r\n    \"role\": \"Manager\"\r\n  },\r\n  {\r\n    \"emp_id\": \"19\",\r\n    \"emp_name\": \"Julia\",\r\n    \"email\": \"julia.scott@apple.com\",\r\n    \"age\": \"58\",\r\n    \"city\": \"Primm Springs\",\r\n    \"project\": \"Canary\",\r\n    \"manager\": \"Theresa\",\r\n    \"role\": \"Manager\"\r\n  },\r\n  {\r\n    \"emp_id\": \"20\",\r\n    \"emp_name\": \"Thomas\",\r\n    \"email\": \"thomas.lewis@gmail.com\",\r\n    \"age\": \"49\",\r\n    \"city\": \"Dutchtown\",\r\n    \"project\": \"Casanova\",\r\n    \"manager\": \"Julia\",\r\n    \"role\": \"Manager\"\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/api/employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/api/employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/employee/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"employee",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/api/employee/9",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emp_id\": \"2\",\r\n    \"emp_name\": \"Brenda\",\r\n    \"email\": \"brenda.robinson@gmail.com\",\r\n    \"age\": \"47\",\r\n    \"city\": \"Stonew\",\r\n    \"project\": \"Bender\",\r\n    \"manager\": \"Cheryl\",\r\n    \"role\": \"Engineer\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/employee/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"employee",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/api/employee/12",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/employee/12",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"employee",
+						"12"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
